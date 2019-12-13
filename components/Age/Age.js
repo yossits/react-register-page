@@ -4,15 +4,11 @@ import '../../App.css';
 export default class Age extends Component {
     
     
-    
-    
     ageCheck = (event) => {
         if (event.target.value > 0 ) {
             this.props.callBack();
         }
     }
-    
-    
     
     render() {
         return (

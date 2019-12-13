@@ -5,8 +5,8 @@ import '../../App.css';
 
 export default class Submit extends Component {
     
-    alertme = () => {
-        if(this.props.validPass && this.props.validPass && this.props.validEmail && this.props.validAge){
+    alertMe = () => {
+        if(this.props.validUser && this.props.validPass && this.props.validEmail && this.props.validAge){
             alert('register success');
         }
         else {
@@ -17,10 +17,12 @@ export default class Submit extends Component {
     render() {
         return (
             <div>
-                <button className="button" onClick={this.alertme}>submit
+                <button 
+                    className="button" 
+                    onClick={this.alertMe}
+                >submit
                 </button>
             </div>
         )
     }
 }
-// alert('register success');

@@ -6,6 +6,7 @@ export default class Email extends Component {
     state = {
         color: ''
     }
+    
     emailCheck = (event) => {
         if(event.target.value.indexOf('@') === 3) {
             this.setState({color: 'green'});
@@ -14,7 +15,6 @@ export default class Email extends Component {
             this.setState({color: ''});
         }
     }
-    
     
     render() {
         return (
