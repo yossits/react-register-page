@@ -6,7 +6,12 @@ import '../../App.css';
 export default class Submit extends Component {
     
     alertme = () => {
-        alert('register success');
+        if(this.props.validPass && this.props.validPass && this.props.validEmail && this.props.validAge){
+            alert('register success');
+        }
+        else {
+            alert('Please fill in the fields correctly');
+        }
     }
 
     render() {
@@ -18,3 +23,4 @@ export default class Submit extends Component {
         )
     }
 }
+// alert('register success');

@@ -11,10 +11,13 @@ export default class Password extends Component {
         if(event.target.value.length === 0) {
             this.setState({color: ''});
         }
-        if(event.target.value.length > 7) {
+        else if(event.target.value.length > 7) {
             this.setState({color: 'red'});
-        }else{
+            
+        }
+        else{
             this.setState({color: 'green'});
+            this.props.callBack();
         }
     }
     

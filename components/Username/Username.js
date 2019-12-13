@@ -10,13 +10,13 @@ export default class Username extends Component {
     userCheck = (event) => {
         if(event.target.value.length > 5 && event.target.value.length < 9){
             this.setState({color: 'green'});
+            this.props.callBack();
         }
-        if(event.target.value.length === 0) {
+        else if(event.target.value.length === 0) {
             this.setState({color: ''});
         }else{
             this.setState({color: 'red'});
         }
-        
     }
       
     render() {

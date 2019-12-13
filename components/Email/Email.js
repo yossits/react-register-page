@@ -9,6 +9,7 @@ export default class Email extends Component {
     emailCheck = (event) => {
         if(event.target.value.indexOf('@') === 3) {
             this.setState({color: 'green'});
+            this.props.callBack();
         }else{
             this.setState({color: ''});
         }
