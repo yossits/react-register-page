@@ -3,10 +3,20 @@ import '../../App.css';
 
 export default class Age extends Component {
     
-    
+    state = {
+        color: ''
+    }
+
+
     ageCheck = (event) => {
         if (event.target.value > 0 ) {
+            this.setState({color: 'green'});
             this.props.callBack();
+        }
+        else if(event.target.value.length === 0) {
+            this.setState({color: ''});
+        }else{
+            this.setState({color: 'red'});
         }
     }
     
@@ -14,7 +24,13 @@ export default class Age extends Component {
         return (
             <div>
                 <p className="title">Age</p>
-                <input className="input" onChange={this.ageCheck} placeholder="Enter your age..." type="text"/>
+                <input 
+                    className="input" 
+                    style={{backgroundColor: this.state.color}} 
+                    onChange={this.ageCheck} 
+                    placeholder="Enter your age..." 
+                    type="text"
+                />
             </div>
         )
     }
