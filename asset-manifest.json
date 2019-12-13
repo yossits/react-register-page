@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-register-page/static/css/main.98b6f779.chunk.css",
-    "main.js": "/react-register-page/static/js/main.fb461f08.chunk.js",
-    "main.js.map": "/react-register-page/static/js/main.fb461f08.chunk.js.map",
+    "main.js": "/react-register-page/static/js/main.4f67351f.chunk.js",
+    "main.js.map": "/react-register-page/static/js/main.4f67351f.chunk.js.map",
     "runtime-main.js": "/react-register-page/static/js/runtime-main.9268f6af.js",
     "runtime-main.js.map": "/react-register-page/static/js/runtime-main.9268f6af.js.map",
     "static/js/2.d7eb31f6.chunk.js": "/react-register-page/static/js/2.d7eb31f6.chunk.js",
     "static/js/2.d7eb31f6.chunk.js.map": "/react-register-page/static/js/2.d7eb31f6.chunk.js.map",
     "index.html": "/react-register-page/index.html",
-    "precache-manifest.e953c9a8f9655a91b5ceffbb4a5725f2.js": "/react-register-page/precache-manifest.e953c9a8f9655a91b5ceffbb4a5725f2.js",
+    "precache-manifest.2e7baf62e3bd60f19f1b768218d07968.js": "/react-register-page/precache-manifest.2e7baf62e3bd60f19f1b768218d07968.js",
     "service-worker.js": "/react-register-page/service-worker.js",
     "static/css/main.98b6f779.chunk.css.map": "/react-register-page/static/css/main.98b6f779.chunk.css.map",
     "static/js/2.d7eb31f6.chunk.js.LICENSE": "/react-register-page/static/js/2.d7eb31f6.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9268f6af.js",
     "static/js/2.d7eb31f6.chunk.js",
     "static/css/main.98b6f779.chunk.css",
-    "static/js/main.fb461f08.chunk.js"
+    "static/js/main.4f67351f.chunk.js"
   ]
 }
