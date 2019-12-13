@@ -1,0 +1,32 @@
+.App {
+  background-color: #204ea8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.title {
+  margin-bottom: 4px;
+}
+.reg-page {
+  border: 1px black solid;
+  padding: 4vh;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 1.7vh;
+  border-radius: 10px;
+}
+.input {
+  background-color: rgba(209, 226, 235, 0.5);
+  border-radius: 2px;
+}
+.button {
+  margin-top: 10px;
+  background-color: rgb(233, 127, 7);
+  width: -webkit-fill-available;
+  font-size: large;
+}
